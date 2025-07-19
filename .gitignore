@@ -193,3 +193,15 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter checkpoint files
+.ipynb_checkpoints/
